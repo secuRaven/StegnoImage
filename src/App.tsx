@@ -85,9 +85,9 @@ function App() {
                Steganography has many legitimate uses:
              </p>
              <ul className="list-disc pl-5 mb-4 space-y-2">
-               <li>Watermarking digital media to protect copyright</li>
-               <li>Secure communication where encryption might raise suspicion</li>
-               <li>Protecting sensitive data from casual observation</li>
+               <li>Watermarking digital media to protect copyright.</li>
+               <li>Secure communication where encryption might raise suspicion.</li>
+               <li>Protecting sensitive data from casual observation.</li>
              </ul>
            </div>
          </section>
