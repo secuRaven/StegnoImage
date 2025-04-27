@@ -11,16 +11,19 @@ const Footer: React.FC<FooterProps> = ({ isDarkMode }) => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm">
-            <p className="flex items-center gap-1">
+            {/* <p className="flex items-center gap-1">
               <Shield size={16} />
               <span>Processing happens entirely in your browser. No data is sent to any server.</span>
-            </p>
+            </p> */}
           </div>
           
-          <div className="flex items-center gap-2 text-sm">
-            <Lock size={16} />
-            <span>StegnoImage © {new Date().getFullYear()}</span>
-          </div>
+          <div className="fixed bottom-0 left-0 w-full flex justify-center items-center py-2 bg-gray-900 text-white">
+  <div className="flex items-center gap-2 text-sm">
+    <Lock size={16} />
+    <span>StegnoImage © {new Date().getFullYear()}</span>
+  </div>
+ </div>
+
         </div>
       </div>
     </footer>
